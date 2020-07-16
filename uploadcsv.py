@@ -55,12 +55,7 @@ class APIHelper():
 
                 hash = {}
                 hash['id'] = point_id
-
-                str_value = row[1]
-                value = float( str_value )
-                value /= 50.0
-                hash['value'] = str(value)
-
+                hash['value'] = row[1]
                 hash['timestamp'] = thisSliceTime
 
                 payloads.append(hash)

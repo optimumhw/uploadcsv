@@ -6,7 +6,7 @@ This tool is for upoading data from a CSV file to Optimum Core
 1. Install Python 3
 1. pip intsall json, requests, datetime and csv
 
-1. Set these env variables:
+1. Set these environment variables:
     * TESLA_USER
     * TESLA_PASSWORD
     
