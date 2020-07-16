@@ -63,10 +63,9 @@ class APIHelper():
             return payloads
 
 
-    def upsert(self, payloads):
+    def upsert(self, headers, payloads):
         url = 'https://' + self.API_DOMAIN + '/v1/data/upsert'
 
-        headers = self.getServiceHeaders()
         r = requests.post(url, data=str(payloads).replace("'", '"'), headers=headers)
         return r.status_code
 
@@ -96,6 +95,6 @@ if __name__ == '__main__':
 
     print(payloads)
 
-    status_code = helper.upsert(payloads)
+    status_code = helper.upsert(headers, payloads)
 
     print('done')
