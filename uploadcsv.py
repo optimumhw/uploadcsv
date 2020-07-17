@@ -93,8 +93,6 @@ if __name__ == '__main__':
 
     payloads = helper.get_csv_data( csv_path )
 
-    print(payloads)
-
     status_code = helper.upsert(headers, payloads)
 
     print('done')

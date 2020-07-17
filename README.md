@@ -1,5 +1,5 @@
 # Upload CSV Tool
-This tool is for upoading data from a CSV file to Optimum Core
+This tool is for uploading data from a CSV file to Optimum Core
 
 ## Set up
 
@@ -16,7 +16,7 @@ This tool is for upoading data from a CSV file to Optimum Core
     
     Example:
     ```
-    timestamp,CDWP2kW
+    timestamp,77622668-061e-4c85-b81d-439af8495adb
     2020-05-06 09:00,0.0
     2020-05-06 09:05,0.0
     2020-05-06 09:10,0.0
@@ -29,7 +29,7 @@ This tool is for upoading data from a CSV file to Optimum Core
 
     
 ## To Run the Tool
-1. Run python [api_domain] [csv_file_path]
+1. Run python uploadcsv.py [api_domain] [csv_file_path]
 
 example:
 
